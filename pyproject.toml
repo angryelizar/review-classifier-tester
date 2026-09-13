@@ -7,7 +7,12 @@ authors = [
     { name = "elizarcarsleep", email = "elizar.konovalov@carsleep.io" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "datasets>=5.0.1",
+    "scikit-learn>=1.9.1",
+    "torch>=2.14.0",
+    "transformers>=5.17.0",
+]
 
 [project.scripts]
 review-classifier-tester = "review_classifier_tester:main"
